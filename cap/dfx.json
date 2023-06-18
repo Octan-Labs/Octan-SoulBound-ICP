@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "canisters": {
+    "cap-bucket": {
+      "candid": "candid/bucket.did",
+      "package": "cap_bucket",
+      "type": "rust"
+    },
+    "cap-root": {
+      "candid": "candid/root.did",
+      "package": "cap_root",
+      "type": "rust"
+    },
+    "cap-router": {
+      "candid": "candid/router.did",
+      "package": "cap_router",
+      "type": "rust"
+    },
+    "cap-router-test": {
+      "candid": "candid/router.did",
+      "package": "cap_router",
+      "type": "rust"
+    },
+    "sdk-example": {
+      "candid": "candid/sdk_example.did",
+      "package": "sdk_example",
+      "type": "rust"
+    }
+  },
+  "networks": {
+    "local": {
+      "bind": "127.0.0.1:8000",
+      "type": "ephemeral"
+    }
+  }
+}
+

@@ -1,0 +1,21 @@
+{
+	"version": 1,
+	"dfx": "0.14.1",
+	"canisters": {
+		"icp_octan_sbt": {
+			"package": "icp_octan_sbt",
+			"candid": "icp_octan_sbt.did",
+			"type": "rust"
+		},
+		"cap-router": {
+			"type": "custom",
+			"wasm": "cap/wasm/cap_router.wasm",
+			"candid": "cap/candid/router.did"
+		}
+	},
+	"defaults": {
+		"build": {
+			"packtool": ""
+		}
+	}
+}
